@@ -13,7 +13,7 @@ export default function Home() {
   function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
     const data: DataInterface = { username, password };
-    console.log(data);
+    console.log(data)
   }
 
   return (
